@@ -36,3 +36,4 @@ $plugin->dependencies = array(
     'qbehaviour_dfexplicitvaildate'    => 2018080600,
     'qbehaviour_dfcbmexplicitvaildate' => 2018080600,
 );
+
