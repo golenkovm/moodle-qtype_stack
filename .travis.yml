@@ -49,6 +49,9 @@ jobs:
     - php: 7.3
       env: TASK=PHPUNIT        MOODLE_BRANCH=MOODLE_39_STABLE   DB=mysqli
 
+    - php: 7.3
+      env: TASK=PHPUNIT        MOODLE_BRANCH=MOODLE_39_STABLE   DB=pgsql
+
     - php: 7.1
       env: TASK=PHPUNIT        MOODLE_BRANCH=MOODLE_35_STABLE   DB=pgsql
 
